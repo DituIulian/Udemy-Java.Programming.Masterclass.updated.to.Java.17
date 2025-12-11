@@ -5,6 +5,7 @@ public class Main {
         int count = 0;
         int sumOfMatches = 0;
 
+        //debug
         for (int i = 1; i <= 1000; i++){
             if (i % 3 == 0 && i % 5 == 0) {
                 count++;
@@ -15,13 +16,12 @@ public class Main {
                 break;
             }
         }
+
         System.out.println("Sum = " + sumOfMatches);
 
-
-
-
-
-
-
+        //debug
+        for(int i = 1 ; i < 7 ; i += 2){
+            System.out.println(i);
+        }
     }
 }
