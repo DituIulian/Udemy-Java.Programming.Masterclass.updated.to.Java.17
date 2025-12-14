@@ -6,6 +6,8 @@ public class Main {
         }
 
         int j = 6;
+        boolean isReady  = false;
+
         while ( j <= 10) {
             System.out.println(j);
             j++;
@@ -18,6 +20,27 @@ public class Main {
             System.out.print(j + ", ");
             j++;
         }
+
+        System.out.println(" ");
+
+        do {
+            if (j > 20){
+                break;
+            }
+            System.out.println("Do while -> " + j );
+            j++;
+        }  while (isReady) ;
+
+
+        int number = 15;
+        while (number < 50){
+            number +=5;
+            if ( number % 25 == 0){
+                continue;
+            }
+            System.out.print(number + ", ");
+        }
+
 
     }
 }
