@@ -3,18 +3,28 @@ public class Main {
 
         Car car = new Car();
 
-//        car.make = "Porche";
-//        car.model = "Carrera";
-//        car.color = "Red";
+        car.setMake("Porsche");
+        car.setModel("Carrera");
+        car.setDoors(2);
+        car.setConvertible(true);
+        car.setColor("black");
 
-//        System.out.println("make = " + car.make);
-//        System.out.println("model = " + car.model);
 
         System.out.println("make = " + car.getMake());
         System.out.println("model = " + car.getModel());
 
         car.describeCar();
 
+
+        Car targa = new Car();
+
+        targa.setMake("Porsche");
+        targa.setModel("Targa");
+        targa.setDoors(4);
+        targa.setConvertible(false);
+        targa.setColor("red");
+
+        targa.describeCar();
 
 
     }
