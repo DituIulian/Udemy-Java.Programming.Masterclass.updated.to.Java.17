@@ -6,6 +6,29 @@ public class BankAccount {
     private String email = "";
     private String phoneNumber = "";
 
+    public BankAccount(){
+        //this() Trebuie sa fie prima linie de cod din constructor
+        this(66,88.5,"Default name", "Default email", "Default phone number");
+        System.out.println("Empty constructor called");
+
+    }
+
+    public BankAccount(int accountNumber, double accountBalance, String customerName, String email, String phoneNumber){
+        System.out.println("Account constructor with parameters called");
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this(999, 32767, customerName, phoneNumber, email);
+//        this.customerName = customerName;
+//        this.email = email;
+//        this.phoneNumber = phoneNumber;
+    }
+
     public int getAccountNumber() {
         return accountNumber;
     }
