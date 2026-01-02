@@ -1,10 +1,10 @@
 public class BankAccount {
 
-    private int accountNumber = 0;
-    private double accountBalance = 0.00;
-    private String customerName = "";
-    private String email = "";
-    private String phoneNumber = "";
+    private int accountNumber;
+    private double accountBalance;
+    private String customerName;
+    private String email;
+    private String phoneNumber;
 
     public BankAccount(){
         //this() Trebuie sa fie prima linie de cod din constructor
