@@ -55,4 +55,18 @@ public class CookingAttempt {
             System.out.println("Erroare: Rating-ul trebuie sa fie intre 1 si 10.");
         }
     }
+
+//    De implementat return de obiect
+//    public CookingAttempt getLastAttempt() {
+//    return attempts.get(attempts.size() - 1); // Ultimul attempt
+//}
+//    public CookingAttempt getLastAttempt() {
+//    return lastAttempt;  // ÎNTREG obiectul
+//}
+//    Recipe recipe = new Recipe("Tocăniță");
+//CookingAttempt last = recipe.getLastAttempt();
+//
+//System.out.println(last.getTemperature());  // 180
+//System.out.println(last.getNotes());        // "A ieșit bine"
+//System.out.println(last.getRating());
 }
