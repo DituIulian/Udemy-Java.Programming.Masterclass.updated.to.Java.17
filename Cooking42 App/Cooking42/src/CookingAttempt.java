@@ -69,4 +69,9 @@ public class CookingAttempt {
 //System.out.println(last.getTemperature());  // 180
 //System.out.println(last.getNotes());        // "A ieșit bine"
 //System.out.println(last.getRating());
+
+//    public CookingAttempt copy() {
+//    return new CookingAttempt(temperature, minutes, notes, rating);
+//}
+
 }
