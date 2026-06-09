@@ -37,14 +37,14 @@ public class Main {
     public static void printInformation(String string){
         System.out.println("String = " + string);
         System.out.println("length = " + string.length());
-        System.out.println("");
+        System.out.println(" ");
     }
 
     public static void printInformation(StringBuilder builder){
         System.out.println("String = " + builder);
         System.out.println("length = " + builder.length());
         System.out.println("capacity = " + builder.capacity());
-        System.out.println("");
+        System.out.println(" ");
     }
 
 
